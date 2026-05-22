@@ -2,14 +2,11 @@ import { GoBell, GoCloudDownload, GoDatabase } from "react-icons/go";
 import Button from "../components/Button";
 
 function ButtonPage() {
-  const handleClick = () => {
-    console.log("Click !");
-  };
 
   return (
     <div>
       <div>
-        <Button primary outline className="mb-5" onClick={handleClick}>
+        <Button primary outline className="mb-5">
           <GoBell />
           Click me !
         </Button>
@@ -38,4 +35,4 @@ function ButtonPage() {
   );
 }
 
-export default Button;
+export default ButtonPage;
