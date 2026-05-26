@@ -12,7 +12,6 @@ function Link({ to, children, className, activeClassName }) {
     if (event.metaKey || event.ctrlKey) {
       return;
     }
-    console.log(event);
     event.preventDefault();
     navigate(to);
   };
